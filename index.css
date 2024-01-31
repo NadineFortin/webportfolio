@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("./images/chip.jpg");
+	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+h1, h2, h3 {
+	font-family: 'Niconne', cursive !important;
+	font-size: 5rem;
+}
+
+/*navigation bar*/
+nav div {
+	background-color: #3F1D38;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+	padding: 0.25rem;
+}
+
+.nvbtextcolor {
+	color: #ffeac9 !important;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+}
+
+#nt-icon {
+	background-color: #ffeac9 !important;
+}
+
+/*landing section*/
+
+#landing {
+	background-color: rgba(225,152,152,0.6);
+	padding-top: 7rem;
+	padding-bottom: 3rem;
+}
+
+#developer {
+	font-family: 'Niconne', cursive !important;
+	font-size: 3rem;
+}
+
+
+#bmef {
+	width: 320px;
+	height: 400px;
+	border: 5px solid #3F1D38;
+}
+
+
+#name-card {
+/*	border: 7px dashed #3F1D38;*/
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background-color: rgba(63,29,56,0);
+	text-align: center;
+}
+
+#name-card div{
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*Projects section*/
+
+#projects {
+	background-color: rgba(162,103,138,0);
+	font-family: 'Quicksand', sans-serif;
+	color: #ffeac9 !important;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+
+ .carousel-item {
+    height: 600px; /* Adjust the height as needed */
+    color: black;
+  }
+
+.carousel-caption {
+   background-color: rgba(0,0,0,0.3)
+}
+
+  /* Ensure images maintain aspect ratio within the fixed height */
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: auto; /* Maintain aspect ratio and cover the entire container */
+
+  }
+
+
+
+/*Tools section*/
+
+#tools {
+	background-color: rgba(77,60,119,0.7);
+	font-family: 'Quicksand', sans-serif;
+	color: #ffeac9 !important;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+#other-tools, #core-tools {
+	border-top: 3px double rgba(225,152,152,0.6);
+/*	border-bottom: 3px double rgba(225,152,152,0.6);*/
+/*	background-color: rgba(225,152,152,0.9);*/
+	/*margin-left: 7%;
+	margin-right: 7%;*/
+}
+
+
+/*contact section*/
+
+#contact {
+	background-color: rgba(63,29,56,0.7);
+	font-family: 'Quicksand', sans-serif;
+	color: #ffeac9;
+	padding-top: 5rem;
+}
+
+#footer {
+	background-color: rgba(63,29,56,1);
+	font-family: 'Quicksand', sans-serif;
+	color: #ffeac9;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
